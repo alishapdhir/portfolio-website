@@ -1,0 +1,28 @@
+/* IDEAS IDEAS WOOHOOOO
+A COOL WAY TO MAKE IT U ST-Y IS LIKE HAVE IT PLAY MUSIC AND PAN THE MUSIC TO THE LEFT THE WAY THE STAGE IS ON THE LEFT WHEN YOU WALK IN */
+
+html,
+
+body {
+  background-color: #042722;
+}
+
+
+#title{
+  color: #FCFCE6;
+  font-family: 'Press Start 2P';font-size: 100px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+#rectangle {
+  margin-top: 5%;
+  margin-left: 3%;
+  width: 900px;
+  height: 230px;
+  background: #4848ED;
+  }
+
+.maintext{
+  display: flex;
+  flex-direction: column;
+}
