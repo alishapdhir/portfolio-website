@@ -10,7 +10,7 @@ body {
   justify-content: center;
   margin: 10% 0;
   min-height: 200px;
-  margin-top: 21%;
+  margin-top: 15%;
   z-index: -1;
   -webkit-animation: rotation 4s infinite linear;
 }
