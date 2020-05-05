@@ -39,7 +39,7 @@ body {
 .topleft{
   color: black;
   font-family: Helvetica;
-  font-size: 70px;
+  font-size: 60px;
   position: absolute;
   top: 8px;
   left: 16px;
@@ -48,7 +48,7 @@ body {
 .topright{
   color: black;
   font-family: Helvetica;
-  font-size: 70px;
+  font-size: 60px;
   position: absolute;
   top: 8px;
   right: 16px;
@@ -57,7 +57,7 @@ body {
 .bottomleft{
   color: black;
   font-family: Helvetica;
-  font-size: 70px;
+  font-size: 60px;
   position: absolute;
   bottom: 8px;
   left: 16px;
