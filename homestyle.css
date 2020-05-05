@@ -7,12 +7,16 @@ body {
   background-color: #042722;
 }
 
+#banger{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
 
 #title{
   color: #FCFCE6;
   font-family: 'Press Start 2P';font-size: 100px;
   margin-top: 5%;
-  margin-left: 5%;
 }
 #rectangle {
   margin-top: 5%;
@@ -24,5 +28,32 @@ body {
 
 .maintext{
   display: flex;
+  margin-left: 5%;
   flex-direction: column;
+}
+
+.navigate{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.navigate a{
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 70px;
+  color: #FF2929;
+}
+
+#mysong{
+  color: #4848ED;
+  font-family: 'Press Start 2P';
+  font-size: 70px;
+  text-shadow: 2px 10px #CEFF00;
+}
+
+.faves{
+  width: 500px;
+  height: 30px;
+  background: #FCFCE6;
 }
