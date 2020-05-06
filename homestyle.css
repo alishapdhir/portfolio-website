@@ -1,59 +1,83 @@
-/* IDEAS IDEAS WOOHOOOO
-A COOL WAY TO MAKE IT U ST-Y IS LIKE HAVE IT PLAY MUSIC AND PAN THE MUSIC TO THE LEFT THE WAY THE STAGE IS ON THE LEFT WHEN YOU WALK IN */
-
 html,
-
 body {
   background-color: #042722;
 }
 
-#banger{
-  position: absolute;
+#banger {
+  position: fixed;
   top: 8px;
   right: 16px;
 }
 
-#title{
+#title {
   color: #FCFCE6;
-  font-family: 'Press Start 2P';font-size: 100px;
-  margin-top: 5%;
-}
-#rectangle {
-  margin-top: 5%;
-  margin-left: 3%;
-  width: 900px;
-  height: 230px;
-  background: #4848ED;
-  }
-
-.maintext{
-  display: flex;
-  margin-left: 5%;
-  flex-direction: column;
+  font-family: 'Press Start 2P';
+  font-size: 70px;
+  margin-top: 2%;
 }
 
-.navigate{
-  position: absolute;
+.navigate {
+  position: fixed;
   bottom: 8px;
   left: 16px;
 }
 
-.navigate a{
+.navigate a {
   text-decoration: none;
   font-family: Helvetica;
-  font-size: 70px;
+  font-size: 40px;
   color: #FF2929;
 }
 
-#mysong{
+.outside a {
+  text-decoration: none;
+  position: fixed;
+  bottom: 8px;
+  right: 16px;
+  font-family: Helvetica;
+  font-size: 40px;
   color: #4848ED;
-  font-family: 'Press Start 2P';
-  font-size: 70px;
+}
+
+.faves {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+
+img {
+  border-radius: 5px;
+  flex-direction: row;
+  align-self: center;
+}
+
+lily{
+  align-self: flex-end;
+}
+
+#mysong {
+  z-index: +1;
+  color: #4848ED;
+  font-family: 'Helvetica';
+  font-weight: bold;
+  font-size: 20px;
   text-shadow: 2px 10px #CEFF00;
 }
 
-.faves{
-  width: 500px;
-  height: 30px;
-  background: #FCFCE6;
+#gooff {
+  z-index: +1;
+  left: 50%;
+  color: #FF2929;
+  font-family: 'Helvetica';
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#Im {
+  z-index: +1;
+  margin-left: 50%;
+  color: #4848ED;
+  font-family: 'Helvetica';
+  font-style: italic;
+  font-size: 30px;
 }

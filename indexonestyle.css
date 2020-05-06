@@ -5,12 +5,10 @@ body {
 }
 
 #namecircle{
+  margin-top: 12%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin: 10% 0;
-  min-height: 200px;
-  margin-top: 15%;
+  align-self: center;
   z-index: -1;
   -webkit-animation: rotation 4s infinite linear;
 }
@@ -25,21 +23,23 @@ body {
   }
 
 .enter a{
+  margin-top: -12%;
   color: black;
   font-family: Helvetica;
-  font-size: 200px;
+  font-size: 100px;
+  text-decoration: none;
+  font-weight: lighter;
   position: absolute;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-decoration: none;
   z-index: +1;
 }
 
-.topleft{
+.topleft a{
+  text-decoration: none;
   color: black;
   font-family: Helvetica;
-  font-size: 60px;
+  font-size: 30px;
   position: absolute;
   top: 8px;
   left: 16px;
@@ -48,7 +48,7 @@ body {
 .topright{
   color: black;
   font-family: Helvetica;
-  font-size: 60px;
+  font-size: 30px;
   position: absolute;
   top: 8px;
   right: 16px;
@@ -57,7 +57,7 @@ body {
 .bottomleft{
   color: black;
   font-family: Helvetica;
-  font-size: 60px;
+  font-size: 30px;
   position: absolute;
   bottom: 8px;
   left: 16px;
