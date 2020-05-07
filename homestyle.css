@@ -1,6 +1,8 @@
 html,
 body {
   background-color: #042722;
+  cursor: auto;
+  cursor: url(images/smallgif.gif) 4 12, auto;
 }
 
 #banger {
@@ -51,6 +53,7 @@ img {
   flex-direction: row;
   align-self: center;
 }
+
 
 #mysong {
   z-index: +1;
