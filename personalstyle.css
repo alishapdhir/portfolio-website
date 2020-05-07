@@ -3,3 +3,26 @@ html,
 body {
   background-color: #042722;
 }
+
+.navigate{
+  position: fixed;
+  bottom: 8px;
+  left: 16px;
+}
+
+.navigate a{
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 40px;
+  color: #FF2929;
+}
+
+.OUTSIDE a {
+  text-decoration: none;
+  position: fixed;
+  bottom: 8px;
+  right: 16px;
+  font-family: Helvetica;
+  font-size: 40px;
+  color: #4848ED;
+}
